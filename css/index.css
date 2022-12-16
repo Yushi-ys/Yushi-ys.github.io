@@ -262,7 +262,7 @@ hr:before,
   -o-transition: filter 375ms ease-in 0.2s, -o-transform 0.6s;
   -ms-transition: filter 375ms ease-in 0.2s, -ms-transform 0.6s;
   transition: filter 375ms ease-in 0.2s, transform 0.6s;
-  object-fit: cover;
+  object-fit: contain;
 }
 .imgHover:hover,
 .article-sort-item-img img:hover,
@@ -302,7 +302,7 @@ hr:before,
   -o-transition: all 0.6s, filter 375ms ease-in 0.2s;
   -ms-transition: all 0.6s, filter 375ms ease-in 0.2s;
   transition: all 0.6s, filter 375ms ease-in 0.2s;
-  object-fit: cover;
+  object-fit: contain;
 }
 .list-beauty,
 .category-lists ul {
@@ -2251,7 +2251,7 @@ figure.highlight pre .javascript .function {
   -o-transition: filter 375ms ease-in 0.2s, -o-transform 0.3s;
   -ms-transition: filter 375ms ease-in 0.2s, -ms-transform 0.3s;
   transition: filter 375ms ease-in 0.2s, transform 0.3s;
-  object-fit: cover;
+  object-fit: contain;
 }
 #article-container .flink .flink-list > .flink-list-item a .img-alt {
   display: none;
@@ -2919,7 +2919,7 @@ h1.page-title + .tag-cloud-list {
   -o-transition: filter 375ms ease-in 0.2s, -o-transform 0.3s;
   -ms-transition: filter 375ms ease-in 0.2s, -ms-transform 0.3s;
   transition: filter 375ms ease-in 0.2s, transform 0.3s;
-  object-fit: cover;
+  object-fit: contain;
 }
 .avatar-img img:hover {
   -webkit-transform: rotate(360deg);
@@ -4485,7 +4485,7 @@ span.mathjax-overflow {
   -o-transform: translate3d(-10px, 0, 0);
   -ms-transform: translate3d(-10px, 0, 0);
   transform: translate3d(-10px, 0, 0);
-  object-fit: cover;
+  object-fit: contain;
 }
 #article-container figure.gallery-group figcaption {
   position: absolute;

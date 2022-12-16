@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Rust-rand踩坑</title>
+      <link href="/2022/12/16/Rust-rand%E8%B8%A9%E5%9D%91/"/>
+      <url>/2022/12/16/Rust-rand%E8%B8%A9%E5%9D%91/</url>
+      
+        <content type="html"><![CDATA[<p>今天写随机函数的时候遇到的问题，一直报错，去了官网看，没找到具体的用法解释</p><p>后来发现是版本的问题</p><p><strong>rand 从 0.7 版本到 0.8 版本修动了 gen_range<br>用 gen_range(a…b) 替换了 gen_range(a, b)</strong></p><p><img src="https://s2.loli.net/2022/12/16/ZxfFJvCRuLmkASi.jpg" alt="rust-rand逗号间隔.jpg"><br>换成如下写法就没有问题了</p><figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> <span class="variable">target</span> = rand::<span class="title function_ invoke__">thread_rng</span>().<span class="title function_ invoke__">gen_range</span>(<span class="number">1</span>..<span class="number">101</span>);</span><br></pre></td></tr></table></figure><p><strong>~~~当然了你也可以换成低版本~~~</strong></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Rust </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Rust踩坑日记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>冬日有感</title>
       <link href="/2022/12/14/%E5%86%AC%E6%97%A5%E6%9C%89%E6%84%9F/"/>
       <url>/2022/12/14/%E5%86%AC%E6%97%A5%E6%9C%89%E6%84%9F/</url>
